@@ -25,6 +25,8 @@ function mostrarServicos(){
     }
 }
 
+
+//funcao para mostrar o iframe da localização
 function mostrarLoc(){
     if(loc.style.display=="none"){
         loc.style.display="block";

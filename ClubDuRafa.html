@@ -5,22 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClubDuRafa</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 </head>
 <body>
     <div id="conteiner">
 
-        <header>
+        <header><!--header que contem a logo e nome da barbearia-->
             <img id="logo" src="img/logo2.jpeg" alt="logo" width="150px">
             <h1>CLUBDURAFA</h1>
             <p>BARBEARIA</p>
         </header>
+        <!-- // -->
 
-        <main>
+        <main><!--Começo do main onde tem as opções-->
+            <!--div dos serviços-->
             <div id="servicos" class="options" onclick="mostrarServicos()">
                 Serviços <img id="seta-ser" src="" alt="seta" width="32px">
             </div>
+            <!-- // -->
 
+            <!--div onde tem os serviços q inicialemnte é display none-->
             <div id="mostrar_servicos">
 
                 <div class="options servicos">
@@ -31,26 +35,45 @@
                     Corte Navalhado R$X
                 </div>
 
-            </div>
+                <div class="options servicos">
+                    Barba R$X
+                </div>
 
-            <div class="options" onclick="mostrarLoc()">
+                <div class="options servicos">
+                    Sobrancelha R$X
+                </div>
+
+            </div>
+            <!-- // -->
+
+            <div class="options" onclick="mostrarLoc()"><!--Div da loc-->
                 Localização <img  id="seta-loc" src="img/seta-para-baixo-branca.png" alt="seta" width="32px">
             </div>
+            <!-- // -->
 
+            <!--Iframe da localização-->
             <iframe id="mostrar-loc" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d479.7823949758095!2d-47.97596884741166!3d-15.84297066363904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2e212596983b%3A0x7b5ac9b0047ff4ff!2sGuar%C3%A1%20II%20QE%2032%20Casa%2002%20-%20Guar%C3%A1%2C%20Bras%C3%ADlia%20-%20DF%2C%2071065-151!5e0!3m2!1spt-BR!2sbr!4v1745337046767!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:2px solid #1B4470;border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- // -->
 
-            <div id="servicos" class="options">
-                Instagram
+            <!--demais opc'~oes-->
+            <div class="options">
+                <img style="margin-right: 10px;" src="img/icone whatsapp.png" alt="whatsapp" width="32px">Agendar
             </div>
 
-            <div id="servicos" class="options">
-                Whatsapp
+            <div class="options">
+                <img style="margin-right: 8px;" src="img/instagramlogo.png" alt="instagram" width="35px">Instagram
             </div>
 
+            <footer>
+                <p>&#169; Desenvolvido por <a style="cursor: pointer;" href="https://github.com/lzeunfa" target="_blank">Eliseu Nóbrega</a> 2025</p>
+            </footer>
         </main>
+
+        
 
     </div>
 
+    <!--JS do projeto para displays-->
     <script src="ClubDuRafa.js"></script>
 </body>
 </html>
