@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+/*configs gerais*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: var(--corLetras);
+}
+
+:root{
+    --corFundo: #5984B1;
+    --corOptions: #1B4470;
+    --corLetras: white;
+    --corServicos: rgba(255, 255, 255, 0.788);
+}
+
+body{
+    background-color: var(--corFundo);
+
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+#conteiner{
+    width: 80%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    border-radius: 50%;
+    border: 5px solid var(--corOptions) ;
+
+    box-shadow: 0px 0px 10px black;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 2.2em;
+}
+
+header p{
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+main{
+    margin: 30px 0px 0px 0px;
+}
+
+.options{
+    background-color: var(--corOptions);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    width: 100%;
+
+    border-radius: 10px;
+
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.options:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.servicos{
+    background-color: var(--corServicos);
+
+    color: var(--corOptions);
+
+    margin-bottom: 10px;
+}
+
+#mostrar_loc{
+    background-color: var(--corServicos);
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
