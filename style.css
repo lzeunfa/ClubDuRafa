@@ -87,8 +87,6 @@ main{
 }
 
 #mostrar_loc{
-    background-color: var(--corServicos);
-
     border-radius: 10px;
 
     display: flex;
