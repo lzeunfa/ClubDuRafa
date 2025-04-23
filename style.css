@@ -64,7 +64,7 @@ main{
     background-color: var(--corOptions);
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     height: 50px;
@@ -90,10 +90,22 @@ main{
     margin-bottom: 10px;
 
     text-align: center;
+
+    display: block;
+}
+
+.whats,.insta{
+    position: relative;
+    justify-content: center;
 }
 
 iframe{
     margin-bottom: 10px;
+}
+
+.whats-insta{
+    position: absolute;
+    left: 0%;
 }
 
 /*fim do main*/
