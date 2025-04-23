@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 /*configs gerais*/
 *{
     margin: 0px;
@@ -10,6 +9,7 @@
     color: var(--corLetras);
 }
 
+/*variaveis de cores*/
 :root{
     --corFundo: #5984B1;
     --corOptions: #1B4470;
@@ -54,6 +54,8 @@ header p{
     font-size: 1.3em;
 }
 
+/* fim do header*/
+
 main{
     margin: 30px 0px 0px 0px;
 }
@@ -80,17 +82,21 @@ main{
     margin-bottom: 10px;
 }
 
-.servicos{
+.outros{
     background-color: var(--corServicos);
 
     color: var(--corOptions);
 
     margin-bottom: 10px;
+
+    text-align: center;
 }
 
 iframe{
     margin-bottom: 10px;
 }
+
+/*fim do main*/
 
 footer{
     border-top: 2px solid #1B4470;
