@@ -94,7 +94,23 @@ main{
     display: block;
 }
 
-.whats,.insta{
+#fila{
+    margin: 0px;
+
+    background-color: var(--corLetras);
+    color: var(--corFundo);
+
+    border-radius: 10px 10px 0px 0px ;
+}
+
+.quantidade{
+    border-radius: 0px 0px 10px 10px;
+
+    display: block;
+    text-align: center;
+}
+
+.whats,.insta,.fila{
     position: relative;
     justify-content: center;
 }
